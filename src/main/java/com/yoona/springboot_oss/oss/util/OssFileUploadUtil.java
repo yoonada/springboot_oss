@@ -45,7 +45,9 @@ public class OssFileUploadUtil {
     private static final String[] FILE_TYPE = new String[]{BMP,JPG,JPEG,GIF,PNG,HTML,TXT,VSD,PPTX,PPT,DOCX,DOC,XML,PDF};
 
     /**
-     * OSS上的文件夹名字
+     *
+     * 这里需要你填写你OSS上的文件夹名字
+     *
      */
     private static final String FILE_PATH = "file";
 

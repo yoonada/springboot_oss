@@ -9,13 +9,17 @@ package com.yoona.springboot_oss.common.constants;
  */
 public class OssConstants {
 
-    public static final String END_POINT ="oss-cn-shenzhen.aliyuncs.com";
+    /**
+     * 请自行填写你对应的信息
+     */
 
-    public static final String ACCESS_KEY_ID ="LTAIlEmixtciJlms";
+    public static final String END_POINT ="";
 
-    public static final String ACCESS_KEY_SECRET ="PbQyEGXIxQTe3AgsTJlyVhTzusgCDI";
+    public static final String ACCESS_KEY_ID ="";
 
-    public static final String BUCKET_NAME ="yoonada";
+    public static final String ACCESS_KEY_SECRET ="";
+
+    public static final String BUCKET_NAME ="";
 
     public static final String URL_PREFIX = BUCKET_NAME+"."+END_POINT;
 
